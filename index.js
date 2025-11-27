@@ -1,7 +1,7 @@
 const vids = document.getElementsByClassName("video-container");
 
 for (const v of vids) {
-    const video = v.children[0];
+    const video = v.children[1];
 
     v.addEventListener("mouseover", () => {
         video.currentTime = 0;
